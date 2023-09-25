@@ -257,6 +257,24 @@ img {
   font-weight: 600;
 }
 
+@media only screen and (max-width: 768px){
+  .chapter_li_item .summary {
+    height: 75px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+  }
+
+  .verses_count {
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+}
+
 /* Footer */
 .footer {
   padding: 2rem;
