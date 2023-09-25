@@ -22,7 +22,7 @@ router.get('/', async (req, res) => {
 
         const response = await fetch(url, options);
         const chapters = await response.json();
-        console.log(chapters);
+        
         res.render('index', { locals, chapters });
     } catch (error) {
         console.error(error);
@@ -32,7 +32,7 @@ router.get('/', async (req, res) => {
 // Single chapter Route
 router.get('/chapter/:id', async (req, res) => {
     const chapterID = req.params.id;
-    // console.log(chapterID);
+    
     const locals = {
         title: `BG Chapter ${chapterID}`,
         description: `Chapter ${chapterID} of Shrimad Bhagavad Gita.`
@@ -117,7 +117,7 @@ router.get('/chapter/:chapter_number/verse/:verse_number', async (req, res) => {
     try {
         const response = await fetch(url, options);
         const result = await response.json();
-        // console.log(result);
+        
         const verse = {
             id: result.id,
             chapter_number: result.chapter_number,
@@ -131,8 +131,7 @@ router.get('/chapter/:chapter_number/verse/:verse_number', async (req, res) => {
             translation4: result.translations.find(item => item.author_name === "Swami Gambirananda"),
         };
         res.render('verseSingle', { locals, verse });
-        // console.log(verse);
-
+        
     } catch (error) {
         console.error(error);
     }
