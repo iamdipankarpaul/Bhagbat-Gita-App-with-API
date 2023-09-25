@@ -131,7 +131,7 @@ router.get('/chapter/:chapter_number/verse/:verse_number', async (req, res) => {
             translation4: result.translations.find(item => item.author_name === "Swami Gambirananda"),
         };
         res.render('verseSingle', { locals, verse });
-        console.log(verse);
+        // console.log(verse);
 
     } catch (error) {
         console.error(error);
