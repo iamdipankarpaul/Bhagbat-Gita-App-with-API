@@ -1,8 +1,8 @@
 {
-  "name": "nodejs-blog",
+  "name": "Bhagavad gita app",
   "version": "1.0.0",
-  "description": "A blog project with nodejs, express, mongoDB and mongoose.",
-  "main": "index.js",
+  "description": "A sinple Bhagavad Gita app using nodejs, express, ejs and api.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "app.js",
