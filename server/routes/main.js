@@ -32,7 +32,7 @@ router.get('/', async (req, res) => {
 // Single chapter Route
 router.get('/chapter/:id', async (req, res) => {
     const chapterID = req.params.id;
-    console.log(chapterID);
+    // console.log(chapterID);
     const locals = {
         title: `BG Chapter ${chapterID}`,
         description: `Chapter ${chapterID} of Shrimad Bhagavad Gita.`

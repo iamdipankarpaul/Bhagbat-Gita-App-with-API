@@ -257,7 +257,7 @@ img {
   font-weight: 600;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .chapter_li_item .summary {
     height: 75px;
     overflow: hidden;
@@ -447,3 +447,42 @@ img {
   margin: 0 auto;
   font-weight: 500;
 }
+
+@media only screen and (max-width: 768px) {
+  .single_verse_text {
+    width: 75%;
+  }
+
+  .single_verse_transliteration {
+    width: 75%;
+  }
+}
+
+/* style about page */
+.about_header{
+  text-align: center;
+}
+
+.about_title {
+  margin: 5px 0;
+  color: var(--orange);
+}
+
+.about_subtitle {
+  font-size: var(--font-size-md);
+  margin: 5px 0 20px 0;
+}
+
+.about_body {
+  font-weight: 400;
+  text-align: justify;
+  text-indent: 50px;
+  padding: 0 10px;
+}
+
+.about_body::first-letter {
+  font-size: 1.75rem;
+}
+
+/* styling contact page */
+
