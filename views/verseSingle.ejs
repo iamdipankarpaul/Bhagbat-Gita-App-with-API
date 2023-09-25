@@ -1,0 +1,25 @@
+<div class="single_verse">
+  <h2 class="single_verse_heading">
+    BG <%= verse.chapter_number %>:<%= verse.verse_number %>
+  </h2>
+  <h3 class="single_verse_text"><%= verse.text %></h3>
+  <h4>Transliteration</h4>
+  <p class="single_verse_transliteration"><%= verse.transliteration %></p>
+  <h4>Word meaning</h4>
+  <p class="single_verse_word_meaning"><%= verse.word_meaning %></p>
+  <hr />
+  <h4>Verse translated by <%= verse.translation1.author_name %></h4>
+  <p class="single_verse_summary"><%= verse.translation1.description %></p>
+
+  <hr />
+  <h4>Verse translated by <%= verse.translation2.author_name %></h4>
+  <p class="single_verse_summary"><%= verse.translation2.description %></p>
+
+  <hr />
+  <h4>Verse translated by <%= verse.translation3.author_name %></h4>
+  <p class="single_verse_summary"><%= verse.translation3.description %></p>
+
+  <hr />
+  <h4>Verse translated by <%= verse.translation4.author_name %></h4>
+  <p class="single_verse_summary"><%= verse.translation4.description %></p>
+</div>

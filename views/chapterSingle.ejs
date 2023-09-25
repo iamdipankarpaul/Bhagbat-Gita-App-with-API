@@ -1,0 +1,18 @@
+<div class="single_chapter">
+  <h2 class="single_chapter_heading">Chapter <%= chapter.chapter_number %></h2>
+  <h1 class="single_chapter_title"><%= chapter.name_translated %></h1>
+  <p class="single_chapter_summary"><%= chapter.chapter_summary %></p>
+  <hr />
+  <h4 class="single_chapter_verses">Verses : <%= chapter.verses_count %></h4>
+  <hr />
+  <ul class="single_chapter_ul">
+    <% verses.forEach(v => { %>
+    <li class="single_chapter_li_item">
+      <a href="/chapter/<%= v.chapter_number %>/verse/<%= v.verse_number %>">
+        <span>Verse <%= v.chapter_number %>:<%= v.verse_number %></span>
+        <p><%= v.translation1.description %></p>
+      </a>
+    </li>
+    <% }) %>
+  </ul>
+</div>

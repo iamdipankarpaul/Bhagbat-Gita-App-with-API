@@ -1,0 +1,27 @@
+<div class="author">
+  <h1 class="author-heading">Shrimad Bhagavad Gita</h1>
+  <h1 class="author-heading">Song of God</h1>
+  <p class="author-body">18 Chapters & 700 Verses</p>
+</div>
+
+<img
+  src="https://images.unsplash.com/photo-1624030275207-77bac1c83be3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+  alt="hero image"
+  class="hero-img img-fluid"
+/>
+
+<section class="chapters">
+  <h1 class="chapters-heading">Chapters</h1>
+  <ul class="chapter-ul">
+    <% chapters.forEach(chapter => { %>
+    <li class="chapter_li_item">
+      <a href="/chapter/<%= chapter.id %>">
+        <h3><%= chapter.chapter_number %></h3>
+        <h2><%= chapter.name_translated %></h2>
+        <p class="summary"><%= chapter.chapter_summary %></p>
+        <p class="verses_count">Verses Count : <%= chapter.verses_count %></p>
+      </a>
+    </li>
+    <% }) %>
+  </ul>
+</section>
