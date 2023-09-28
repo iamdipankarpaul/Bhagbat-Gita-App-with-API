@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const expressLayout = require('express-ejs-layouts');
 const bodyParser = require('body-parser');
+const fetch = require('cross-fetch');
 
 // 
 const app = express();
