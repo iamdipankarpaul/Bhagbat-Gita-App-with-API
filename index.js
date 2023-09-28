@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 // 
 const app = express();
-const PORT = 5000 || process.env.PORT;
+const PORT = process.env.PORT || 5000;
 
 // All the css, js and assets files goes here
 app.use(express.static('public'));
@@ -14,7 +14,7 @@ app.use(express.static('public'));
 // Templating engine
 app.use(expressLayout);
 app.set("views", "./views");
-app.set('layout', './views/layout/main');
+app.set('layout', './layout/main');
 app.set('view engine', 'ejs');
 
 // 
