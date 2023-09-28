@@ -8,12 +8,8 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
   "author": "Dipankar Paul",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
   "dependencies": {
     "axios": "^1.5.0",
     "body-parser": "^1.20.2",
@@ -21,5 +17,8 @@
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
