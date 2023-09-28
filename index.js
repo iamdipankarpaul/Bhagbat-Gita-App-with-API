@@ -13,7 +13,8 @@ app.use(express.static('public'));
 
 // Templating engine
 app.use(expressLayout);
-app.set('layout', './layout/main');
+app.set("views", path.join(__dirname, "views"));
+app.set('layout', './views/layout/main');
 app.set('view engine', 'ejs');
 
 // 
