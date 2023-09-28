@@ -1,5 +1,5 @@
 {
-  "name": "Bhagavad gita app",
+  "name": "bhagavad-gita-app",
   "version": "1.0.0",
   "description": "A sinple Bhagavad Gita app using nodejs, express, ejs and api.",
   "main": "index.js",
