@@ -11,7 +11,13 @@ This project is about Bhagavad Gita. I used a [API](https://rapidapi.com/bhagava
 
 ## Screenshots
 
+![screenshot-localhost_5000-2023 09 28-19_35_10](https://github.com/dipankarpaul2k/Bhagbat-Gita-App-with-API/assets/136841290/2cc48b69-608b-4cab-85d8-48f2f221fa1f)
 
+![screenshot-localhost_5000-2023 09 28-19_36_45](https://github.com/dipankarpaul2k/Bhagbat-Gita-App-with-API/assets/136841290/71706c29-ecd2-49b4-89a1-5b2f302af3d0)
+
+![screenshot-localhost_5000-2023 09 28-19_37_13](https://github.com/dipankarpaul2k/Bhagbat-Gita-App-with-API/assets/136841290/446898f6-193e-47dd-9dd0-422571c1c057)
+
+![screenshot-localhost_5000-2023 09 28-19_37_55](https://github.com/dipankarpaul2k/Bhagbat-Gita-App-with-API/assets/136841290/87afa216-da53-433c-8e2c-6cec1b4ec9ee)
 
 ## Technologies Used
 
