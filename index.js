@@ -9,6 +9,7 @@ const PORT = 5000 || process.env.PORT;
 
 // All the css, js and assets files goes here
 app.use(express.static('public'));
+// Above line is middleware, so this line should be above all your request handlers.
 
 // Templating engine
 app.use(expressLayout);
