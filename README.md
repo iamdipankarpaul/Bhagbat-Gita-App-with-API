@@ -22,32 +22,8 @@ This project is about Bhagavad Gita. I used a [API](https://rapidapi.com/bhagava
 
 ## Folder Structure
 
-│
-├───public
-│   ├───assets
-│   ├───css
-│   │       style.css
-│   │
-│   └───js
-│           script.js
-│
-├───server
-│   └───routes
-│           main.js
-│
-└───views
-    │   about.ejs
-    │   chapterSingle.ejs
-    │   contact.ejs
-    │   index.ejs
-    │   verseSingle.ejs
-    │
-    ├───componentes
-    │       footer.ejs
-    │       header.ejs
-    │
-    └───layout
-            main.ejs
+![Screenshot 2023-10-05 133847](https://github.com/dipankarpaul2k/Bhagbat-Gita-App-with-API/assets/136841290/7241a0a5-e6a0-4429-8fcb-6a70ca85a481)
+
 
 ## Technologies Used
 
