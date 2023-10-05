@@ -33,6 +33,7 @@ This project is about Bhagavad Gita. I used a [API](https://rapidapi.com/bhagava
 - NodeJs
 - ExpressJs
 - EJs
+- [Bhagavad Gita api](https://rapidapi.com/bhagavad-gita-bhagavad-gita-default/api/bhagavad-gita3)
 
 ## Usage
 
