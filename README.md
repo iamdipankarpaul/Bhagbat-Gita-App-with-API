@@ -5,6 +5,7 @@ This project is about Bhagavad Gita. I used a [API](https://rapidapi.com/bhagava
 ## Table of Contents
 
 - [Screenshots](#screenshots)
+- [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -18,6 +19,35 @@ This project is about Bhagavad Gita. I used a [API](https://rapidapi.com/bhagava
 ![screenshot-localhost_5000-2023 09 28-19_37_13](https://github.com/dipankarpaul2k/Bhagbat-Gita-App-with-API/assets/136841290/446898f6-193e-47dd-9dd0-422571c1c057)
 
 ![screenshot-localhost_5000-2023 09 28-19_37_55](https://github.com/dipankarpaul2k/Bhagbat-Gita-App-with-API/assets/136841290/87afa216-da53-433c-8e2c-6cec1b4ec9ee)
+
+## Folder Structure
+
+│
+├───public
+│   ├───assets
+│   ├───css
+│   │       style.css
+│   │
+│   └───js
+│           script.js
+│
+├───server
+│   └───routes
+│           main.js
+│
+└───views
+    │   about.ejs
+    │   chapterSingle.ejs
+    │   contact.ejs
+    │   index.ejs
+    │   verseSingle.ejs
+    │
+    ├───componentes
+    │       footer.ejs
+    │       header.ejs
+    │
+    └───layout
+            main.ejs
 
 ## Technologies Used
 
